@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(219, 196, 146);
+}
+
+.container {
+    display: grid;
+    justify-items: center;
+}
+
+.treasureImg {
+    width: 500px;
+    height: 500px;
+}
