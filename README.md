@@ -9,3 +9,5 @@ Repository of simple projects that I liked the most during my studies js
  This one shows output only in console. Here is example of using "for in" by sorting through an array of movies
 4) Guess The Word --
  Also a little game. Here is random word that y can try to guess by finding letters of this word
+5) Modal window -- 
+ Opening and closing modal windows using button
