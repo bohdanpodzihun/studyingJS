@@ -1,0 +1,40 @@
+.modal {
+    font-family: "Calibri";
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.modal .modalContent {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    z-index: 9999;
+}
+
+.modal .modalContent .closeModalWindow {
+    color: #aaa;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modalInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.modalTitle {
+    font-size: 25px;
+    font-weight: bold;
+}
